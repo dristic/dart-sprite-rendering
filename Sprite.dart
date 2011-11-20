@@ -12,6 +12,8 @@ class Sprite implements IRenderable {
   int width;
   int height;
   
+  String name;
+  
   bool left = false;
   bool right = false;
   
@@ -27,6 +29,8 @@ class Sprite implements IRenderable {
     this.y = 10;
     this.width = 30;
     this.height = 30;
+    
+    this.name = "Sprite";
   }
   
   void update() {
